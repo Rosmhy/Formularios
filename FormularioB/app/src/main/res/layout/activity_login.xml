@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo1"
+        android:scaleType="centerCrop"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/rectangulo"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="34dp"
+        android:text="Usuario"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginVertical="5dp"/>
+    <AutoCompleteTextView
+        android:id="@+id/correoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/cuadro1"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textcontraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Contraseña"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginVertical="5dp"/>
+    <AutoCompleteTextView
+        android:id="@+id/contraseñaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/cuadro1"
+        android:textSize="16dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Si no estas registrado, Registrarse"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/NEGRO"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btoningresar"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="400dp"
+        android:text="Ingresar"
+        android:background="@drawable/cuadro1"/>
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="400dp"
+        android:text="Registrar"
+        android:background="@drawable/cuadro1"/>
+
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo1"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/textBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:fontStyle="italic"
+        android:text="Bienvenid@s"
+        android:textColor="@color/NEGRO"
+        android:textSize="45dp"/>
+
+    <ImageButton
+        android:id="@+id/boton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/fila"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textfila"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tenis Fila"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginTop="200dp"/>
+
+    <ImageButton
+        android:id="@+id/boton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/nike"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textNike1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tenis Nike"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginTop="200dp"/>
+
+    <ImageButton
+        android:id="@+id/boton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/tenisnegros"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textnikepareja"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tenis pareja"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginTop="200dp"/>
+
+
+    <ImageButton
+        android:id="@+id/boton4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/nikeCocidos"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textNikeVerde"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tenis nike"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginTop="350dp"/>
+
+    <ImageButton
+        android:id="@+id/boton5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/nikevinotinto"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textNikeVinotinto"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tenis nike"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginTop="350dp"/>
+
+    <ImageButton
+        android:id="@+id/boton6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rosados" />
+    <TextView
+        android:id="@+id/textRosados"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="10dp"
+        android:text="Tenis rosa"
+        android:textColor="@color/NEGRO"
+        android:textSize="22dp"
+        android:layout_marginTop="350dp"/>
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/Instagram"
+        android:scaleType="centerCrop"/>
+
+    <ImageButton
+        android:id="@+id/facebook"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="400dp"
+    android:layout_marginStart="100dp"
+    android:layout_marginEnd="34dp"
+    android:src="@drawable/facebook"
+    android:scaleType="centerCrop"/>
+
+    <ImageButton
+        android:id="@+id/whatsapp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/whatsapp"
+        android:scaleType="centerCrop"/>
+
+</RelativeLayout>

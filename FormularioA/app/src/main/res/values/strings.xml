@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FormularioA</string>
+    <string name="titulo">Registro</string>
+    <string name="bienvenida">Bienvenid@s</string>
+    <string name="Camisas">Camisas Personalizadas</string>
+    <string name="Gorras">Gorras Personalizadas</string>
+</resources>
